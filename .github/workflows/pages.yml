@@ -1,3 +1,5 @@
+# Однократно на GitHub: Settings → Pages → Build and deployment → Source: GitHub Actions
+# Иначе configure-pages получит 404 (сайт Pages ещё не создан).
 name: Deploy to GitHub Pages
 
 on:
@@ -12,7 +14,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -23,12 +25,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Configure Pages
-        uses: actions/configure-pages@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
