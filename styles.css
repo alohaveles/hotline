@@ -408,5 +408,49 @@ body {
   margin: 0;
   font-size: 0.8rem;
   color: var(--muted);
-  max-width: 55ch;
+  max-width: 62ch;
+}
+
+.section-lead a,
+.steps p a,
+.safety-grid .flat p a,
+.video-hint a,
+.footnote-block a,
+.fine a {
+  color: var(--telegram);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.section-lead a:hover,
+.steps p a:hover,
+.safety-grid .flat p a:hover,
+.video-hint a:hover,
+.footnote-block a:hover,
+.fine a:hover {
+  text-decoration: underline;
+}
+
+.video-hint {
+  margin: 2rem 0 0;
+  padding: 1rem 1.25rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--muted);
+  font-size: 0.95rem;
+  max-width: 640px;
+}
+
+.footnote-block {
+  margin: 2rem 0 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+  max-width: 72ch;
+  line-height: 1.65;
+}
+
+.footnote-block strong {
+  color: var(--text);
+  font-weight: 600;
 }

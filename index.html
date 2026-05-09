@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="hotline.tg — горячая линия и анонимная поддержка в Telegram. Напишите, когда нужно выслушать и помочь."
+      content="Hotline.tg — бесплатная Telegram-native CRM для поддержки и продаж через топик-группы. Подключение за минуты, боты и личные аккаунты, премиум-функции."
     />
-    <title>hotline.tg — горячая линия в Telegram</title>
+    <title>Hotline.tg — CRM для поддержки и продаж в Telegram</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,175 +17,231 @@
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="icon"
-      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.85em' x='50%' text-anchor='middle' font-size='85'>📞</text></svg>"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.85em' x='50%' text-anchor='middle' font-size='85'>⚡</text></svg>"
     />
   </head>
   <body>
     <div class="ambient" aria-hidden="true"></div>
     <header class="shell header">
-      <a class="logo" href="#">hotline<span class="dot">.</span>tg</a>
+      <a class="logo" href="https://hotline.tg/ru/" target="_blank" rel="noopener noreferrer"
+        >hotline<span class="dot">.</span>tg</a
+      >
       <nav class="nav" aria-label="Навигация">
-        <a href="#about">О проекте</a>
-        <a href="#how">Как это работает</a>
-        <a href="#safety">Конфиденциальность</a>
+        <a href="#features">Возможности</a>
+        <a href="#start">Как начать</a>
+        <a href="#privacy">Конфиденциальность</a>
+        <a href="https://hotline.tg/ru/pricing/" target="_blank" rel="noopener noreferrer">Тарифы</a>
+        <a href="https://hotline.tg/ru/docs/" target="_blank" rel="noopener noreferrer">Документация</a>
       </nav>
       <a
         class="btn btn-primary"
-        href="https://t.me/hotline_tg"
+        href="https://t.me/hotlinetg_bot"
         target="_blank"
         rel="noopener noreferrer"
-        >Открыть в Telegram</a
+        >Подключить в Telegram</a
       >
     </header>
 
     <main>
       <section class="hero shell">
         <div class="hero-copy">
-          <p class="eyebrow">Анонимно · Через привычный мессенджер</p>
-          <h1>Горячая линия, которая всегда в кармане</h1>
+          <p class="eyebrow">Telegram-native · Топик-группы · Поддержка и продажи</p>
+          <h1>CRM для поддержки и продаж прямо в Telegram</h1>
           <p class="lead">
-            hotline.tg соединяет людей с поддержкой там, где они уже общаются
-            каждый день. Напишите боту или каналу — без звонков и без лишней
-            суеты.
+            Hotline — решение для служб поддержки и отделов продаж на интерфейсе топик-групп Telegram. Есть
+            бесплатный тариф и премиум. Проект позиционируется как продвинутая CRM, заточенная под экосистему
+            Telegram.
           </p>
           <div class="hero-actions">
             <a
               class="btn btn-primary btn-lg"
-              href="https://t.me/hotline_tg"
+              href="https://t.me/hotlinetg_bot"
               target="_blank"
               rel="noopener noreferrer"
-              >Запустить в Telegram</a
+              >Бот для подключения</a
             >
-            <a class="btn btn-ghost btn-lg" href="#how">Как это работает</a>
+            <a class="btn btn-ghost btn-lg" href="#start">Как это устроено</a>
           </div>
           <dl class="stats">
             <div>
-              <dt>24/7</dt>
-              <dd>Приём обращений</dd>
+              <dt>≈5 мин</dt>
+              <dd>Самостоятельное подключение через бота</dd>
             </div>
             <div>
-              <dt>🔒</dt>
-              <dd>Минимум данных</dd>
+              <dt>∞</dt>
+              <dd>Без ограничений по числу менеджеров и диалогов</dd>
             </div>
             <div>
-              <dt>FREE</dt>
-              <dd>Доступ без оплаты</dd>
+              <dt>🔐</dt>
+              <dd>Текст сообщений может не храниться на серверах Hotline</dd>
             </div>
           </dl>
         </div>
         <div class="hero-card" aria-hidden="true">
           <div class="chat">
-            <div class="bubble them">Привет. Мне нужна поддержка.</div>
+            <div class="bubble them">Клиент написал в бот — топик создан.</div>
             <div class="bubble us">
-              Спасибо, что написали. Вы не одни — мы здесь рядом.
+              Ответ из той же топик-группы: голос, фото, файлы — как в обычном Telegram.
             </div>
-            <div class="bubble them">Спасибо. Это легче, чем звонить.</div>
+            <div class="bubble them">Командная работа без отдельного «тяжёлого» кабинета.</div>
           </div>
           <span class="card-glow"></span>
         </div>
       </section>
 
-      <section id="about" class="section shell">
-        <h2>О проекте</h2>
+      <section id="features" class="section shell">
+        <h2>Возможности и преимущества</h2>
         <p class="section-lead">
-          Мы считаем, что попросить о помощи должно быть так же просто, как
-          отправить сообщение другу. hotline.tg делает поддержку доступной там,
-          где людям комфортно — в Telegram.
+          Ниже — сжатый конспект с
+          <a href="https://hotline.tg/ru/" target="_blank" rel="noopener noreferrer">официальной страницы Hotline.tg</a>.
+          Полный список и ссылки на документацию — там же.
         </p>
         <ul class="grid features">
           <li class="card">
-            <span class="icon" aria-hidden="true">💬</span>
-            <h3>Чат вместо очередей</h3>
+            <span class="icon" aria-hidden="true">⚙️</span>
+            <h3>Быстрое подключение</h3>
             <p>
-              Ответ там, где вам спокойнее печатать, а не говорить вслух в
-              трубку.
+              Настройка через установочного бота, без долгих внедрений — заявлено до пяти минут на старт.
             </p>
           </li>
           <li class="card">
-            <span class="icon" aria-hidden="true">🌐</span>
-            <h3>Доступ из любой точки</h3>
+            <span class="icon" aria-hidden="true">👥</span>
+            <h3>Любой размер команды</h3>
             <p>
-              Телефон, планшет или десктоп — одна ссылка, без установки
-              отдельного приложения.
+              Нет лимита на операторов: все добавленные в бэкенд-группу участники работают с диалогами по ролям.
             </p>
           </li>
           <li class="card">
-            <span class="icon" aria-hidden="true">🤝</span>
-            <h3>Реальные люди</h3>
+            <span class="icon" aria-hidden="true">🤖</span>
+            <h3>Боты и личные аккаунты</h3>
+            <p>Поддержка собственных ботов и пользовательских аккаунтов, в том числе комбинация в одном проекте.</p>
+          </li>
+          <li class="card">
+            <span class="icon" aria-hidden="true">📎</span>
+            <h3>Нативные типы сообщений</h3>
             <p>
-              За сервисом стоят обученные волонтёры и специалисты — не только
-              автоответы.
+              Голос, медиа, альбомы, стикеры, «кружки», гео, файлы — всё через привычный интерфейс Telegram.
             </p>
+          </li>
+          <li class="card">
+            <span class="icon" aria-hidden="true">✉️</span>
+            <h3>Первый контакт из CRM</h3>
+            <p>
+              При подключении аккаунта можно инициировать новые диалоги с пользователями и взаимодействовать с группами
+              и каналами из рабочей топик-группы.
+            </p>
+          </li>
+          <li class="card">
+            <span class="icon" aria-hidden="true">🔗</span>
+            <h3>Параллельное подключение к ботам</h3>
+            <p>
+              По заявлениям разработчиков параллельная сессия не ломает логику существующих ботов: входящие и колбэки по
+              кнопкам по-прежнему видят ваши боты.
+            </p>
+          </li>
+          <li class="card">
+            <span class="icon" aria-hidden="true">📣</span>
+            <h3>Лиды и мониторинг</h3>
+            <p>Фильтрация чатов по ключевым словам для поиска лидов и отслеживания упоминаний бренда.</p>
+          </li>
+          <li class="card">
+            <span class="icon" aria-hidden="true">📊</span>
+            <h3>Маркетинг и аналитика</h3>
+            <p>Рассылки, метки топиков и воронки, на платных тарифах — модуль командной аналитики.</p>
+          </li>
+          <li class="card">
+            <span class="icon" aria-hidden="true">🔌</span>
+            <h3>Интеграции</h3>
+            <p>Webhooks и API для связки с внешними системами и нестандартными сценариями.</p>
           </li>
         </ul>
       </section>
 
-      <section id="how" class="section shell section-alt">
-        <h2>Как это работает</h2>
+      <section id="start" class="section shell section-alt">
+        <h2>Как начать</h2>
         <ol class="steps">
           <li>
             <span class="step-num">1</span>
             <div>
-              <h3>Откройте бота или канал</h3>
+              <h3>Откройте бота установки</h3>
               <p>
-                Перейдите по ссылке <strong>t.me/hotline_tg</strong> (замените
-                на ваш реальный @username при запуске).
+                Официальный бот —
+                <a href="https://t.me/hotlinetg_bot" target="_blank" rel="noopener noreferrer">@hotlinetg_bot</a>. В нём
+                задаются параметры подключения.
               </p>
             </div>
           </li>
           <li>
             <span class="step-num">2</span>
             <div>
-              <h3>Опишите ситуацию</h3>
+              <h3>Подключите бота или аккаунт</h3>
               <p>
-                Напишите в свободной форме. Можно коротко — мы зададим уточняющие
-                вопросы при необходимости.
+                Существующие боты можно подключать в параллельном режиме без отключений. Личный аккаунт подключается как
+                ещё одна сессия Telegram.
               </p>
             </div>
           </li>
           <li>
             <span class="step-num">3</span>
             <div>
-              <h3>Получите ответ</h3>
+              <h3>Работайте в топик-группах</h3>
               <p>
-                Команда отвечает в порядке очереди. В срочных случаях используйте
-                местные экстренные номера.
+                Обращения отображаются в топиках; доступны пины, поиск и другие возможности Telegram-групп. Процесс
+                описан в
+                <a href="https://hotline.tg/ru/docs/connection/" target="_blank" rel="noopener noreferrer">документации по подключению</a>.
               </p>
             </div>
           </li>
         </ol>
+        <p class="video-hint">
+          Видео и обзоры: на русском —
+          <a href="https://vkvideo.ru/@hotlinetg" target="_blank" rel="noopener noreferrer">VK Video @hotlinetg</a>;
+
+          международный канал —
+          <a href="https://www.youtube.com/@Hotlinetg" target="_blank" rel="noopener noreferrer">YouTube @Hotlinetg</a>.
+        </p>
       </section>
 
-      <section id="safety" class="section shell">
-        <h2>Конфиденциальность и безопасность</h2>
+      <section id="privacy" class="section shell">
+        <h2>Конфиденциальность и инфраструктура</h2>
         <div class="safety-grid">
           <div class="card flat">
-            <h3>Что мы храним</h3>
+            <h3>Сообщения в Telegram</h3>
             <p>
-              Политика хранения зависит от вашей реализации. Опишите здесь,
-              какие данные логируются и как долго — это важно для доверия.
+              Архитектура рассчитана на то, что тело переписки остаётся в Telegram; заявлена возможность не сохранять
+              содержимое сообщений на серверах Hotline — в отличие от многих веб-кабинетов.
+              <a href="https://hotline.tg/ru/docs/privacy/" target="_blank" rel="noopener noreferrer">Подробнее о приватности</a>.
             </p>
           </div>
           <div class="card flat">
-            <h3>Экстренные случаи</h3>
+            <h3>Серверы и стабильность</h3>
             <p>
-              Если есть риск для жизни или здоровья, обратитесь в службы 112 / 103
-              или к ближайшим близким немедленно.
+              Инфраструктура в Google Cloud на Kubernetes; физические серверы размещаются в Нидерландах рядом с
+              основным европейским датацентром Telegram. Обещаются низкий даунтайм и масштабирование под нагрузку.
+              <a href="https://hotline.tg/ru/docs/privacy/" target="_blank" rel="noopener noreferrer">Детали в документации</a>.
             </p>
           </div>
         </div>
+        <p class="footnote-block">
+          <strong>Бесплатно и платно:</strong> бесплатное использование возможно при показе копирайта в первом
+          сообщении; тарификация платных режимов — по объёму сообщений и срокам. См.
+
+          <a href="https://hotline.tg/ru/pricing/" target="_blank" rel="noopener noreferrer">раздел тарифов</a>.
+          Вопросы и консультации по внедрению —
+          <a href="https://t.me/hotlinetg_support" target="_blank" rel="noopener noreferrer">@hotlinetg_support</a>.
+        </p>
       </section>
 
       <section class="cta shell">
         <div class="cta-inner">
-          <h2>Готовы написать?</h2>
-          <p>Одно сообщение — первый шаг к тому, чтобы стало легче.</p>
+          <h2>Попробуйте Hotline в деле</h2>
+          <p>Систему уже используют на проектах с большими объёмами обращений; старт через бота занимает минуты.</p>
           <a
             class="btn btn-primary btn-lg"
-            href="https://t.me/hotline_tg"
+            href="https://t.me/hotlinetg_bot"
             target="_blank"
             rel="noopener noreferrer"
-            >Перейти в Telegram</a
+            >Открыть @hotlinetg_bot</a
           >
         </div>
       </section>
@@ -194,8 +250,9 @@
     <footer class="shell footer">
       <span class="logo muted">hotline.tg</span>
       <p class="fine">
-        Сайт сгенерирован для демонстрации. Замените тексты, юзернеймы и
-        юридические блоки перед публичным запуском.
+        Тексты на странице кратко отражают публичное описание продукта на
+        <a href="https://hotline.tg/ru/" target="_blank" rel="noopener noreferrer">hotline.tg/ru</a>. Этот сайт может
+        хоститься на GitHub Pages независимо от официального домена — при расхождениях ориентируйтесь на первоисточник.
       </p>
     </footer>
   </body>
